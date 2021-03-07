@@ -1,71 +1,69 @@
+
 <!DOCTYPE html>
-<html lang="en-FI" dir="ltr">
+<html lang="fi-FI" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My blog</title>
-    <link rel="stylesheet" type="text/css" href="master.css">
-    <link rel="icon" href="favicon.ico">
+    <meta name="keywords" content="Hieronta, urheiluhieroja,
+    klassinen hieronta">
+    <meta name="description" content="Hierontapalvelu">
+    <meta name="author" content="Ville Uusitalo">
+    <meta name="viewport" content="width=device-width,
+    initial-scale=1">
+    <title>HIERONTA ÄSSÄ</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href=
+    "https://fonts.googleapis.com/css2?family=Oswald&display=swap"
+    rel="stylesheet">
+    <link rel="stylesheet" href="..\css\style.css">
+    <link rel="shortcut icon" href="favicon.ico">
   </head>
   <body>
+
     <header>
-      <div class="container">
-        <a id="header-title" href="index.html">My Blog</a>
-        <ul id="header-nav">
-          <li> <a href="about.html">About</a> </li>
-          <li> <a href="mailto:ville.uusitalo93@gmail.com">Contact</a> </li>
-        </ul>
+      <div class="top">
+        <h2 class="welcome">KOULUTETTU URHEILUHIEROJA</h2>
+        <h1 class="nimi">Juho Salminen</h1>
+        <p title="Juhon puhelinnumero" class="puhelin"><b>
+          <a href="tel:+35844 272 5465">P. 044 272 5465 </a></b></p>
       </div>
     </header>
-    <div id="content">
-      <div class="post-container">
-        <div class="post">
-          <div class="post-author">
-            <img src="author.jpg" alt="Picture of author">
-            <span>Me</span>
-          </div>
-          <p class="post-date">Today</p>
-          <h3 class="post-title">What is going on?</h3>
-          <div class="post-content">
-            <p>Blaa blaa blaa</p>
-            <p>Yees yes</p>
-          </div>
-        </div>
-        <div class="post-container">
-          <div class="post">
-            <div class="post-author">
-              <img src="ville.jpg" alt="Picture of Ville Uusitalo">
-              <span>Me</span>
-            </div>
-            <p class="post-date">Yesterday</p>
-            <h3 class="post-title">Becoming a web developer</h3>
-            <div class="post-content">
-              <p>Last spring I applied to two degrees, <em>data science</em> and <em>mechanical engineering</em>.
-              I chose mechanical engineering and the school
-              begun this autumn. However during christmas break I found Mimo app and I liked it very much so I started practicing coding with it. </p>
-              <p>After 40 days I have learned alot about HTML5, CSS and Javascript. Im very happy with the progress and the more I learn the more
-              I like coding. Therefore I have decided to apply to data science inside the school and begin it <strong>next autumn</strong>. </p>
-              <p>Here is a link to <a href="https://getmimo.com/">Mimo's</a> website if you want to give it a go!</p>
-            </div>
-          </div>
-        </div>
-      </div>
+
+    <nav>
+      <ul>
+        <li><a href="index.html" style="cursor:pointer">Etusivu</a></li>
+        <li><a href="ajanvaraus.html">
+          Ajanvaraus</a></li>
+        <li><a href="tietoa.html">Tietoa minusta</a></li>
+        <li><a href="hinnasto.html">Hinnasto</a></li>
+      </ul>
+    </nav>
+
+    <div class="center">
+      <img src="../img/juho.jpg" alt="Picture of Juho Salminen"
+       class="juho">
     </div>
+
     <footer>
-      <div class="container">
-        <div class="column">
-          <h4>My links</h4>
-          <p>
-            <a href="https://www.facebook.com/ville.uusitalo.146">Facebook</a><br>
-            <a href="https://www.instagram.com/nyyhauze/">Instagram</a><br>
-            <a href="https://www.linkedin.com/in/ville-uusitalo-a953b81b6/">LinkedIn</a>
-          </p>
-        </div>
-        <div class="column">
-          <h4>My story</h4>
-          <p>Hello there! I'm an aspiring programmer!</p>
-        </div>
+      <div class="footer">
+        <p><strong>KLASSISTA- SEKÄ</strong></p>
+        <p> <em>URHEILUHIERONTAA </em> YHDISTÄEN </p>
+        <p>P. 044 272 5465 </p>
+        <p><a href="mailto:hieronta.assa@gmail.com">
+          hieronta.assa@gmail.com
+        </a></p>
+        <p style = "font-style: italic;" >Valtakatu 11 Ylivieska,
+           Kauneushoitola NorPink</p>
       </div>
     </footer>
+
+    <div class="maps">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1744.4653246326868!2d24.531724516268437!3d64.07276958356192!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4681214acb74e573%3A0x3d7f2cf41d4a5441!2zSGllcm9udGEgw4Rzc8Ok!5e0!3m2!1sfi!2sfi!4v1615045327849!5m2!1sfi!2sfi"
+       frameborder="0" style="width: 100%; height: 400px"></iframe>
+    </div>
+
+    <script src="../js/script.js">
+
+    </script>
+
   </body>
 </html>
